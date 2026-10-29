@@ -1,0 +1,10 @@
+# Optional automated detection & model inference dependencies.
+# Supports:
+# 1. Grounding DINO Tiny (zero-shot text-prompted detection)
+# 2. SAM + DINOv2 Visual Reference Matcher (class-neutral SAM proposals + frozen DINOv2 feature matching)
+# Install after configuring PyTorch for your system's CUDA / CPU setup (see README.md).
+-r requirements.txt
+torch>=2.2.0
+torchvision>=0.17.0
+transformers>=4.44.0
+opencv-python>=4.8.0

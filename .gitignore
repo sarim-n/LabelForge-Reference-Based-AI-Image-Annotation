@@ -1,0 +1,51 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Bytecode and Python runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit and editor configs
+.streamlit/secrets.toml
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Downloaded model weights, checkpoints, and cache directories
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+model_cache/
+models/
+hf_cache/
+checkpoints/
+.cache/
+
+# Generated annotation datasets, exports, and temporary workspace files
+datasets/
+exports/
+outputs/
+work/
+work/workspace/
+.labelforge_workspace/
+*.zip
+*.tar
+*.tar.gz
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
